@@ -1,1 +1,1 @@
-# deep-thoughts
+# Deep Thoughts
