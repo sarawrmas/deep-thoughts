@@ -26,7 +26,7 @@ const resolvers = {
       // pass object to find method, return by username if exists, or return all
       return Thought.find(params).sort({ createdAt: -1 });
     },
-    // look up thought by id
+    // look up thought by ids
     thought: async (parent, { _id }) => {
       // destructure id and place it in findOne method
       return Thought.findOne({ _id });
